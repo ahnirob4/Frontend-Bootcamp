@@ -2,9 +2,52 @@ body{
     background-color: #F5FCFF;
 }
 
+.showcase-mar{
+    margin-top: 70px !important;
+}
+
+.card-rounded{
+    border-radius: 5px !important;
+    border:none !important;
+}
+
 .navbar-toggler{
     border: none !important;
     outline: none;
+}
+
+.social-hover{
+    cursor: pointer;
+}
+
+.social-hover .bi-twitter:hover{
+    color: #00acee;
+}
+
+.social-hover .bi-facebook:hover{
+    color: #3b5998;
+}
+
+.social-hover .bi-linkedin:hover{
+    color: #0e76a8;
+}
+
+.social-hover .bi-instagram:hover{
+    color: #833AB4;
+}
+
+iframe{
+    border-radius: 8px;
+}
+
+
+    /* Media Query */
+
+
+@media only screen and (max-width: 2000px){
+    .news-input{
+        max-width: 50% !important;
+    }
 }
 
 @media only screen and (max-width: 992px){
@@ -15,18 +58,50 @@ body{
     .showcase-img{
         max-width: 25rem !important;
     }
-}
+    .modal-text{
+        text-align: start;
+    }
+    .footer-text{
+        text-align: start;
+    }
+}   
+
 
 @media only screen and (max-width: 768px){
     .showcase-img{
         max-width: 18.75rem !important;
     }
+    .modal-text{
+        text-align: start;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .news-input{
+        max-width: 100% !important;
+    }
+    .react-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+
 }
 
 @media only screen and (max-width: 576px){
     .showcase-reverse{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .showcase-img{
+        max-width: 25rem !important;
+    }
+    .modal-text{
+        text-align: start;
+    }
+    .footer-text{
+        font-size: .8rem !important;
     }
 }
     
