@@ -1,5 +1,6 @@
 body{
     background-color: #F5FCFF;
+    transition: all .5 ease-in .2s;
 }
 
 .showcase-mar{
