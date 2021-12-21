@@ -1,0 +1,32 @@
+body{
+    background-color: #F5FCFF;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none;
+}
+
+@media only screen and (max-width: 992px){
+    .showcase-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .showcase-img{
+        max-width: 25rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .showcase-img{
+        max-width: 18.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .showcase-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+    
